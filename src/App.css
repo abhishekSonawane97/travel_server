@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-bg {
+  background: url("https://images.unsplash.com/photo-1530789253388-582c481c54b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MjR8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content {
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100%;
+  width: 100%;
+}
+
+.form {
+  border-radius: 20px;
+}
+
+.question {
+  font-size: 25px;
+  font-weight: 500;
+  color: darkgreen;
+}
+
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: darkgreen;
+}
+
+.subcategory {
+  color: darkgreen;
+}
+
+.bg-result {
+  background: url("https://images.unsplash.com/photo-1578364249730-0c4ee16426fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGlnaHQlMjB0cmF2ZWwlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60")
+    no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.bg-login {
+  background: url("https://img.freepik.com/free-photo/small-toy-plane-table_23-2148100631.jpg?size=626&ext=jpg&ga=GA1.1.1746331584.1681759473&semt=ais")
+    no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.result {
+  padding: 10vh;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.flex {
+  /* style={{display:"flex", alignItems:"center", justifyContent:"center"}} */
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  border: none;
+  width: 17rem;
+}
+
+.line {
+  border: 2px solid black;
+}
+
+.logo {
+  height: 70px;
+  width: 100px;
 }
